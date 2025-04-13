@@ -9,14 +9,18 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![CRAN
 status](https://www.r-pkg.org/badges/version/patter)](https://CRAN.R-project.org/package=patter)
 
-`proj.verse` is an umbrella package for a series of `proj` packages that
-support scientific project development and management in `R`:
+[`proj.verse`](https://github.com/edwardlavender/proj.verse) is an
+umbrella package for a series of `proj` packages that support scientific
+project development and management in `R`:
 
-- `proj.build` provides build tools for functions and packages;
-- `proj.file` provides file-system tools;
-- `proj.template` sets up new RStudio Projects;
-- `proj.lapply` provides iterative project workflows;
-- `proj.verse` is is the umbrella package;
+- [`proj.build`](https://github.com/edwardlavender/proj.build) provides
+  build tools for functions and packages;
+- [`proj.file`](https://github.com/edwardlavender/proj.file) provides
+  file-system tools;
+- [`proj.templates`](https://github.com/edwardlavender/proj.templates)
+  sets up template RStudio Projects;
+- [`proj.lapply`](https://github.com/edwardlavender/proj.lapply)
+  provides iterative project workflows;
 
 # Installation
 
