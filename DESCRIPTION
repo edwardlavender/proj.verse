@@ -8,9 +8,14 @@ Authors@R:
            comment = c(ORCID = "0000-0002-8040-7489"))
 Description: Scientific project development and management. 
 License: MIT + file LICENSE
-Imports:
-Suggests:
-Depends: R (>= 4.1)
+Depends: 
+    R (>= 4.1),
+    proj.build, proj.file, proj.templates, proj.lapply
+Remotes:
+    github::edwardlavender/proj.build
+    github::edwardlavender/proj.file
+    github::edwardlavender/proj.templates
+    github::edwardlavender/proj.lapply
 Config/testthat/edition: 3
 URL: https://github.com/edwardlavender/proj.verse/
 BugReports: https://github.com/edwardlavender/proj.verses/issues/
